@@ -36,7 +36,7 @@
  # Create Iam Role and attach Policy and service account:
      eksctl create iamserviceaccount \
         --name external-dns \
-    	--region us-east-1 \
+        --region us-east-1 \
         --namespace default \
         --cluster eksdemo \
         --attach-policy-arn arn:aws:iam::119159500181:policy/External-DNS \
