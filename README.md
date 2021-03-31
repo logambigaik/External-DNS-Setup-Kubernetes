@@ -33,17 +33,24 @@
         }
       ]
     }
+    
+ ![image](https://user-images.githubusercontent.com/54719289/113169388-75af1180-923d-11eb-9698-3f3a50cee9a3.png)
+
+
  # Create Iam Role and attach Policy and service account:
      eksctl create iamserviceaccount \
         --name external-dns \
         --region us-east-1 \
         --namespace default \
         --cluster eksdemo \
-        --attach-policy-arn arn:aws:iam::119159500181:policy/External-DNS \
+        --attach-policy-arn arn:aws:iam::136962450893:policy/external-DNS \
         --approve \
         --override-existing-serviceaccounts
  # Verify the Service Account:
     kubectl get sa external-dns
+ 
+ ![image](https://user-images.githubusercontent.com/54719289/113169835-e3f3d400-923d-11eb-87f3-3574b833667a.png)
+
  Open Deploy-ExternalDNS.yml file replce external-dns role arn:
   annotations:
     eks.amazonaws.com/role-arn: arn:aws:iam::057996059708:role/eksctl-eksdemo-addon-iamserviceaccount-defau-Role1-1VWNIU0P54SWC
