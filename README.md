@@ -3,7 +3,7 @@
     - EKS-Cluster Setup
     - Application Load Balancer
 # EKS-Cluster Setup:
-  [EKS Cluster Setup](https://github.com/Naresh240/eks-cluster-setup/blob/main/README.md)
+  [EKS Cluster Setup](https://github.com/logambigaik/eks-cluster-setup/blob/main/README.md)
 # ALB-Ingress-Controller Setup:
   [ALB Ingress Controller](https://github.com/logambigaik/ALB-Ingress-Controller-Setup/blob/main/README.md)
 # External DNS Setup
