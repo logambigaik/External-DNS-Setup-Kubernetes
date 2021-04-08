@@ -5,7 +5,7 @@
 # EKS-Cluster Setup:
   [EKS Cluster Setup](https://github.com/Naresh240/eks-cluster-setup/blob/main/README.md)
 # ALB-Ingress-Controller Setup:
-  [ALB Ingress Controller](https://github.com/logambigaik/ALB-Ingress-Controller-Setup.git/README.md)
+  [ALB Ingress Controller](https://github.com/logambigaik/ALB-Ingress-Controller-Setup/blob/main/README.md)
 # External DNS Setup
   Create policy for External-DNS using below JSON content:
   
